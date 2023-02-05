@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "KromeMK2PsbExtractor", "KromeMK2PsbExtractor\KromeMK2PsbExtractor.pyproj", "{CE9B88B5-A11D-4181-AF25-C6B1396EB252}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE9B88B5-A11D-4181-AF25-C6B1396EB252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE9B88B5-A11D-4181-AF25-C6B1396EB252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E369908-374A-4715-B9F7-741A8227BB49}
+	EndGlobalSection
+EndGlobal
