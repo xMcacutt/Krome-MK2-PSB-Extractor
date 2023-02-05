@@ -29,11 +29,12 @@ else:
             f.seek(24, 1)
             sound = Sound(fileName, fileSize)
             sounds.append(sound)
+        f.seek(37, 1)
         for sound in sounds:
             output = open(sys.argv[2] + "\\" + str(sound.name) + ".raw", "w+b")
-            f.seek(38, 1)
             data = f.read(sound.size)
             output.write(data)
+            f.seek(58, 1)
             print("File written: " + str(sound.name) + ".raw")
         print("Done")
 
